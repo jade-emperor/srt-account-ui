@@ -1,0 +1,38 @@
+[
+    {
+        "id": 2001,
+        "tripId": 1001,
+        "toBePaid": 3800.0,
+        "paid": 2000.0,
+        "paidBy": "Parimalam",
+        "paymentMethod": "Cash",
+        "collectedBy": "Mangalam",
+        "place": "pickup location",
+        "dateTime": "2024-01-26 13:30",
+        "details": "Advance Payment"
+    },
+    {
+        "id": 2002,
+        "tripId": 1001,
+        "toBePaid": 1800.0,
+        "paid": 1500.0,
+        "paidBy": "Parimalam",
+        "paymentMethod": "Cash",
+        "collectedBy": "Mangalam",
+        "place": "drop location",
+        "dateTime": "2024-01-26 15:45",
+        "details": "Partial Payment"
+    },
+    {
+        "id": 2003,
+        "tripId": 1001,
+        "toBePaid": 300.0,
+        "paid": 100.0,
+        "paidBy": "Partha",
+        "paymentMethod": "UPI",
+        "collectedBy": "Venki",
+        "place": "office",
+        "dateTime": "2024-01-27 10:05",
+        "details": "Final Payment"
+    }
+]

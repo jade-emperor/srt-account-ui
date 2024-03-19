@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1001,
+        "regNo": "AB12CD4567",
+        "driverName": "Mangalam",
+        "meterStart": 123010,
+        "meterEnd": 123080,
+        "fuelInPrice": 1500.0,
+        "fuelInLtr": 15,
+        "tollAmount": 75.0,
+        "parkingAmount": 25.0,
+        "otherAmount": 250.0,
+        "tripBill": 3700.0,
+        "driverPayment": 0,
+        "details": "Seatbelt penalty 250"
+    }
+]

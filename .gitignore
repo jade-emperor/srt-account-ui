@@ -1,0 +1,51 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### react modules ###
+/src/main/react/srt-account-ui/node_modules/
+/src/main/react/srt-account-ui/package-lock.json
+# testing
+/src/main/react/srt-account-ui/coverage
+
+# production
+/src/main/react/srt-account-ui/build
+
+# misc
+/src/main/react/srt-account-ui/.DS_Store
+/src/main/react/srt-account-ui/.env
+/src/main/react/srt-account-ui/npm-debug.log*
+/src/main/react/srt-account-ui/yarn-debug.log*
+/src/main/react/srt-account-ui/yarn-error.log*

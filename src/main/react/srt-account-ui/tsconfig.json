@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ES6",
+        "allowJs": true,
+        "jsx": "react",
+        "outDir": "./dist",
+        "isolatedModules": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "rootDir": ".",
+        "baseUrl": "./src",
+        "typeRoots": ["./node_modules/@types", "./src/typings"],
+        "esModuleInterop": true,
+        "paths": {
+            "@app/*": ["app/*"],
+            "@assets/*": ["assets/*"]
+        },
+        "noImplicitAny": false,
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules/**/*"]
+}
