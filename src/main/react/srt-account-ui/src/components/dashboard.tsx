@@ -1,7 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { AddDriver } from "./AddDriver";
+import { DriversList } from "./DriversList";
 
 const Dashboard = (props) => {
-    return <div>Test</div>
+    return <Fragment>
+        <DriversList />
+    </Fragment>
 }
 
 export default Dashboard;
