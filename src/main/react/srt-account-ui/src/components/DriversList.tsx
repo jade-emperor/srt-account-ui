@@ -25,7 +25,7 @@ export const DriversList = () => {
     }, [])
 
     return (
-        <div style={{height: "calc(100vh - 100px)", width: '100%'}} className="ag-theme-alpine">
+        <div style={{height: "calc(90vh - 100px)", width: '100%'}} className="ag-theme-alpine">
             <AgGridReact rowData={rows} columnDefs={colDefs} />
         </div>
     )

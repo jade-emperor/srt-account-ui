@@ -16,22 +16,26 @@ export const FormTextController = ({
   return (
     <Grid container size={parentGridSize}>
       <Grid size={labelSize}>
-        <Typography>{label}</Typography>
+        <Typography key={'lbl-'+name}>{label}</Typography>
       </Grid>
       <Grid size={compSize}>
-        <Controller
+        <Controller key={'ctrl-'+name}
           name={name}
           control={control}
-          defaultValue=""
           rules={rules ? rules : undefined}
+          defaultValue={""}
           render={({ field }) => (
-            <TextField
+            <TextField key={'txt-'+name}
               fullWidth
               error={!!name && !!errors[name]}
               helperText={errors[name]?.message}
               {...field}
+              sx={{"width": "100%",
+                "& .MuiInputBase-input.MuiOutlinedInput-input": {padding: "5px !important"}
+              }}
             />
           )}
+          
         />
       </Grid>
     </Grid>
